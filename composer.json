@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/mongodb",
+    "name": "dominium/mongodb",
     "type": "library",
     "description": "Doctrine MongoDB Abstraction Layer",
     "keywords": ["database", "persistence", "mongodb"],
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "ext-mongo": "^1.5",
+        "ext-mongodb": ">=1.0",
         "doctrine/common": "^2.2"
     },
     "require-dev": {
